@@ -6,9 +6,10 @@ module.exports = {
   mode: "development",
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "dist/galleria"),
     filename: "bundle.js",
     clean: true,
+    publicPath: "/galleria/",
   },
   module: {
     rules: [
@@ -34,9 +35,18 @@ module.exports = {
     }),
   ],
   devServer: {
-    static: path.resolve(__dirname, "public"),
+    historyApiFallback: {
+      rewrites: [
+        { from: /^\/$/, to: "/galleria/index.html" },
+        { from: /./, to: "/galleria/index.html" },
+      ],
+    },
+    static: {
+      directory: path.resolve(__dirname, "public"),
+      publicPath: "/galleria/",
+    },
     port: 8080,
-    open: true,
+    open: ["galleria/"],
     hot: true,
   },
 };
