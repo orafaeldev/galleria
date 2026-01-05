@@ -6,7 +6,7 @@ module.exports = {
   mode: "development",
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "dist/galleria"),
+    path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
     clean: true,
     publicPath: "/galleria/",
