@@ -10,10 +10,6 @@ An interactive and elegant art gallery, featuring famous masterpieces with a mod
 
 **galleria.** is a web application that displays a curated collection of iconic paintings from art history. The project features a masonry grid gallery with slideshow functionality, allowing users to explore each artwork with detailed information about the artist, creation year, and historical context.
 
-## 🔗 Live Preview
-
-Check out the live version of the application here: [https://orafael.dev/galleria/](https://orafael.dev/galleria/)
-
 ## ✨ Features
 
 - **Masonry Grid Layout**: Responsive grid implemented with **Pure JavaScript**, without using external libraries.
