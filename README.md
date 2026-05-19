@@ -68,7 +68,7 @@ Instead of using abstraction tools like 'Create React App', I **manually configu
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/orafael93/galleria.git
+git clone https://github.com/orafaeldev/galleria.git
 cd galleria
 ```
 
