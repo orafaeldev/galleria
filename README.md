@@ -113,4 +113,4 @@ The gallery features 15 masterpieces, including:
 **Rafael Pereira**
 
 - Email: orafaeldev@gmail.com
-- GitHub: [@orafael93](https://github.com/orafael93)
+- GitHub: [@orafaeldev](https://github.com/orafaeldev)
